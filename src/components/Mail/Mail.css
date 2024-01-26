@@ -1,0 +1,39 @@
+.mail-me {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: var(--primary-font-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -75px;
+    right: 15px;
+    border: 10px solid var(--secondary-background);
+    padding: 30px;
+    transition: all .2s ease-out;
+}
+
+.mail-me a {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-background);
+    transition: all .2s ease-out;
+}
+
+.mail-me:hover {
+    background: var(--secondary-background);
+}
+
+.mail-me:hover a {
+    color: var(--primary-font-color);
+    transform: scale(1.3);
+}
+
+@media(max-width:680px) {
+    .mail-me {
+        bottom: -50px;
+    }
+}
