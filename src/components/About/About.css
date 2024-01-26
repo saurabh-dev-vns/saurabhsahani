@@ -112,5 +112,8 @@
             transform: translateX(-40px);
         }
     }
-
+    .about-me .container .title-container .title {
+        font-size: 20px;
+       
+    }
 }

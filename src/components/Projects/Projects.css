@@ -1,0 +1,39 @@
+.projects {
+    padding: 0px 0px 50px 0px;
+}
+
+
+.projects .container {
+    position: relative;
+    padding: 0 40px;
+}
+
+.projects .container .title-container .title {
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--secondary-font-color);
+    text-transform: capitalize;
+    border-bottom: 4px solid var(--primary-font-color);
+}
+
+.project-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+        gap: 30px;
+        margin: 20px 0;
+}
+
+.project-container p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--tertiary-font-color);
+}
+
+@media(max-width:680px) {
+    .projects .container .title-container .title {
+        font-size: 20px; 
+    }
+}

@@ -1,0 +1,99 @@
+.contact {
+    padding: 0px 0px 50px 0px;
+}
+
+.contact .container {
+    position: relative;
+    padding: 0 40px;
+}
+
+.contact .container .title-container .title {
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--secondary-font-color);
+    text-transform: capitalize;
+    border-bottom: 4px solid var(--primary-font-color);
+}
+
+.contact-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.contact-container .co {
+    color: var(--tertiary-font-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+
+.io-mail {
+    width: 30px;
+    height: 30px;
+    background: var(--secondary-background);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 15px;
+    padding: 35px;
+    transition: all .2s ease-out;
+}
+
+.io-mail .io {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-font-color);
+    transition: all .2s ease-out;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.io-mail:hover {
+    background: var(--secondary-background);
+}
+
+.io-mail:hover .io {
+    transform: scale(1.3);
+}
+
+.c-mail {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.text-mail {
+    display: flex;
+    flex-direction: column;
+}
+
+.mail-text {
+    font-size: 22px;
+    color: var(--tertiary-font-color);
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.mail-to {
+    font-weight: 800;
+    color: var(--secondary-font-color);
+}
+
+@media(max-width:680px) {
+
+    .contact .container .title-container .title {
+        font-size: 20px;
+       
+    }
+}
