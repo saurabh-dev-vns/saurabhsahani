@@ -19,7 +19,6 @@
     text-decoration: none;
     font-family: 'Nunito', sans-serif;
     -webkit-tap-highlight-color: none;
-    transition: all .2s;
 }
 
 html, body {
